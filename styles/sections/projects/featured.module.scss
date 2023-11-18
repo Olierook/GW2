@@ -39,10 +39,11 @@
 	gap: var(--size-3x);
 
 	p {
-		font-size: 1.75rem;
+		font-size: 16px;
 		line-height: 1.2;
 
 		strong {
+			// font-size: 18px;
 			color: var(--primary-bright);
 		}
 	}
