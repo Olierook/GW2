@@ -262,6 +262,7 @@
 			.details {
 				border-radius: 1rem;
 				padding: var(--size-2x);
+				z-index: 50;
 			}
 
 			.stackContainer {
@@ -277,7 +278,7 @@
 			}
 
 			.imageContainer {
-				height: 100px;
+				height: 150px;
 				width: 100%;
 			}
 
@@ -288,7 +289,7 @@
 				> div > div {
 					> span {
 						img {
-							width: calc(556px / 2) !important;
+							width: calc(556px / 1.5) !important;
 						}
 					}
 				}

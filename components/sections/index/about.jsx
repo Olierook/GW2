@@ -27,33 +27,29 @@ export default function About() {
 	return (
 		<Section classProp={about.section}>	
 			<Container spacing={['verticalXXXLrg']}>
-				<SectionTitle
-					title="About Me"
-					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
-				/>
+
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
+						<img src="/img/profiel3.jpg" alt="Band picture"/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
-							title="Softskills that pay the bills"
+							title="About"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							icon={[ 'fat', 'music' ]}
+							copy="Embark on a sonic adventure with our 5-piece heavy rock n' roll band. Fronted by the powerful vocals of Jan-Willem Kerpershoek, our lineup features Vincent de Bruijn and Lex van der Zwaal on guitars, Rinus Veldhuijzen holding down the bass, and the rhythmic pulse provided by Robbert Olierook on drums. Together, we deliver tunes that get your fucked and resonate with a rebellious 'Yeehaw,' creating a raw, rowdy, and unforgiving sound."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="Contact" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
-							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
-							//invertedColor="invertedColor"
+							iconClass={about.icon}
+							icon="address-card"
+							copy="Hit us up on goldwolffband@gmail.com or +31648120785. Or reach out to us on social media or at one of our gigs"
 							headerIcon={`${about.icon}`}
 						/>
 					</div>
@@ -62,6 +58,12 @@ export default function About() {
 		</Section>
 	)
 }
+
+				// <SectionTitle
+				// 	title="EP Release"
+				// 	preTitle="Synopsis"
+				// 	subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+				// />
 
 const methods 	= [
 	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },

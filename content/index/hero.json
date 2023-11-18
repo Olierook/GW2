@@ -1,7 +1,7 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
-		"end": "Hello, my name is",
+		"start": "Heavy rock 'n roll",
+		"end": "get fucked",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
@@ -11,21 +11,21 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "Goldwölff",
+		"usp": "Rawer than your steak tartare"
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "Goldwölff is a heavy rock 'n roll band from Leiden. Come join us for our EP release 12/01/2024 @ Nobel in Leiden. Here y'all find heavy music and heavy matches as this is also a boxing gala",
 
 	"buttons": {
 		"primary": {
-			"title": "Contact Me",
-			"url": "",
-			"leaveSite": false
+			"title": "Tickets",
+			"url": "https://nobel.nl/programma/friday-fight-night-12-jan-2024/",
+			"leaveSite": "true"
 		},
 		"secondary": {
-			"title": "LinkedIn",
-			"url": "",
+			"title": "Spotify",
+			"url": "https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT",
 			"leaveSite": "true"
 		}
 	}

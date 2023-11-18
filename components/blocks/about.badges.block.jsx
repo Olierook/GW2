@@ -12,7 +12,6 @@ export default function BadgesBlock({ title, copy, list, fullContainer, block, i
 			</span>
 			<h3>{title}</h3>
 			<Copy copy={copy} />
-			<Badges list={list} block={block} invertedColor={invertedColor} fullContainer={fullContainer} />
 		</div>
 	)
 }

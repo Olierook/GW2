@@ -150,7 +150,7 @@ export default function Navbar() {
 						content.map( ({ url, title }, index) => {
 							return (
 								<li key={index}>
-									<Link href={url}>{title}</Link>
+									<a target="_blank" href={url} rel="noopener noreferrer">{title}</a>
 								</li>
 							)
 						})	
