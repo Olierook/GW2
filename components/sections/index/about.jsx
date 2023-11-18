@@ -38,7 +38,7 @@ export default function About() {
 							title="About"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fat', 'music' ]}
+							icon={[ 'fas', 'music' ]}
 							copy="Embark on a sonic adventure with our 5-piece heavy rock n' roll band. Fronted by the powerful vocals of Jan-Willem Kerpershoek, our lineup features Vincent de Bruijn and Lex van der Zwaal on guitars, Rinus Veldhuijzen holding down the bass, and the rhythmic pulse provided by Robbert Olierook on drums. Together, we deliver tunes that get your fucked and resonate with a rebellious 'Yeehaw,' creating a raw, rowdy, and unforgiving sound."
 						/>
 						<BadgesBlock 
