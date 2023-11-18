@@ -56,4 +56,4 @@ export default function Recent({ mediumArticles }) {
 			</Container>
 		</Section>
 	)
-}
+} 
